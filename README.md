@@ -24,4 +24,4 @@ $workExperience[
 ];
 ```
 * Utilisez des boucles "foreach".
-* Faire fonctionner le formulaire pour qu'il expédie un email vers votre adresse (ex: contact@tld.com via la fonction mail).
+* Faire fonctionner le formulaire pour qu'il affiche l'ensemble des données des champs, juste au dessus du formulaire.
