@@ -6,8 +6,15 @@ $age = 20;
 $tel = "06 23 45 67 89";
 $adresse = "140, City Center, New York, U.S.A";
 $langues = ["English", "German", "French"];
+$reseaux = [
+    "facebook"  => "https://fr-fr.facebook.com/RedBull/",
+    "twitter"   => "https://twitter.com/redbull",
+    "linkedin"  => "https://fr.linkedin.com/company/red-bull",
+    "instagram" => "https://www.instagram.com/redbull/",
+];
 
 $workExperience = [
+
     [
         "dateDebut"   => "MARS 2020",
         "dateFin"     => "Present",
@@ -15,11 +22,13 @@ $workExperience = [
         "titre"       => "mon titre 1",
         "description" => "Bla bla",
     ],
+
     [
         "dateDebut"   => "JUILLET 2018",
         "dateFin"     => "MARS 2020",
         "societe"     => "Yyy",
         "titre"       => "mon titre 2",
         "description" => "Bla bla 2",
-    ]
+    ],
+
 ];
