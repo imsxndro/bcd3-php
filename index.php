@@ -1,6 +1,4 @@
-<?php 
-require "config.php";
-?>
+<?php require_once "config.php"; ?>
 
 <!DOCTYPE html>
 <html lang="en-US">
@@ -21,7 +19,7 @@ require "config.php";
       <div class="profile-page sidebar-collapse">
         <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
           <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Creative CV</a>
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip"><?php echo $titre; ?></a>
               <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
@@ -533,21 +531,35 @@ require "config.php";
                   <div class="card-body">
 
                     <?php
-                    echo "<pre>";
-                        var_dump( $_POST );
-                    echo "</pre>";
-                    
-                    /*
                     if (isset($_POST) && !empty($_POST)) {
-                        echo "<pre>".var_export($_POST, true)."</pre>";
-                        $resEmail = mail("test@mailinator.com", "mon sujet", "mon message");
+                        echo "
+                        <div class='alert alert-warning' role='alert'>
+                            <pre>".var_export($_POST, true)."</pre>
+                        </div>";
+                        
+                        $contenuEmail = "
+                        Nom : ".$_POST['name']."
+                        Message : ".$_POST['message']."
+                        Email : ".$_POST['email']."
+                        ";
+                        
+                        $resEmail = mail("test67845165341@mailinator.com", $_POST['subject'], $contenuEmail, "from:".$_POST['email']);
+                        // Si l'email a bien été expédié :
                         if ($resEmail) {
-                            echo "okkkkkk";
+                            echo "
+                            <div class='alert alert-success' role='alert'>
+                                Message envoyé.
+                            </div>";
+
+                        // Si l'email n'est pas expédié :
                         } else {
-                            echo "nokkkkkk";
+                            echo "
+                            <div class='alert alert-danger' role='alert'>
+                                Nous avons rencontré un problème lors de l'expédition de votre message.<br>Merci d'essayer de nouveau ultérieurement.
+                            </div>";                            
                         }
-                    }
-                    */
+                        
+                    }                    
                     ?>
                     <form action="" method="POST">
                       <div class="p pb-3"><strong>Feel free to contact me </strong></div>
@@ -561,14 +573,14 @@ require "config.php";
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
-                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                            <input class="form-control" type="text" name="subject" placeholder="Subject" required="required"/>
                           </div>
                         </div>
                       </div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                            <input class="form-control" type="email" name="email" placeholder="E-mail" required="required"/>
                           </div>
                         </div>
                       </div>
