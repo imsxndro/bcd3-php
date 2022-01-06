@@ -6,21 +6,38 @@ Regrouper la totalité des données pour la création de votre CV dans un fichie
 
 ## Vous devez utiliser :
 
-* "include" ou "require" dans index.php pour include le fichier nommé "config.php".
+* "include" ou "require" dans index.php pour include le fichier nommé "config.php" (ou directement en entete de votre index.php).
 * Utilisez des variables. 
 ```
 Ex :
-$firstname = "Michael";
+$titre   = "Mon CV";
+$prenom  = "John";
+$nom     = "DOE";
+$email   = "johndoe@tld.com";
+$age     = 25;
+$tel     = "06 23 45 67 89";
+$adresse = "140 rue Lorem Ipsum, 17000 LA ROCHELLE, France";
+$langues = ["English", "German", "French"];
+
+$reseaux = [
+    "facebook"  => "url_vers_votre_page",
+    "twitter"   => "url_vers_votre_page",
+    "linkedin"  => "url_vers_votre_page",
+    "instagram" => "url_vers_votre_page",
+];
 ```
 * Utilisez des tableaux 
 ```
 Ex : 
-$workExperience[
-  "dateStart"   => "xxx",  
-  "dateEnd"     => "xxx",  
-  "company"     => "xxx",
-  "title"       => "xxx",
-  "description" => "xxx",
+$workExperience = [
+  [
+    "dateDebut"   => "...",
+    "dateFin"     => "...",
+    "societe"     => "...",
+    "titre"       => "...",
+    "description" => "...",
+  ],
+  ...
 ];
 ```
 * Utilisez des boucles "foreach".
