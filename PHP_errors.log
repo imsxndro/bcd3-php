@@ -1,0 +1,12 @@
+[20-Jan-2022 10:13:25 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/cabox/workspace/exo/index.php on line 4
+[20-Jan-2022 10:13:55 America/New_York] PHP Parse error:  syntax error, unexpected 'nom' (T_STRING), expecting ']' in /home/cabox/workspace/exo/index.php on line 6
+[20-Jan-2022 10:15:37 America/New_York] PHP Parse error:  syntax error, unexpected 'nom' (T_STRING), expecting ']' in /home/cabox/workspace/exo/index.php on line 15
+[20-Jan-2022 10:19:40 America/New_York] PHP Parse error:  syntax error, unexpected 'age' (T_STRING), expecting ')' in /home/cabox/workspace/exo/index.php on line 14
+[20-Jan-2022 10:20:07 America/New_York] PHP Parse error:  syntax error, unexpected 'age' (T_STRING), expecting ')' in /home/cabox/workspace/exo/index.php on line 14
+[20-Jan-2022 10:20:09 America/New_York] PHP Parse error:  syntax error, unexpected 'age' (T_STRING), expecting ')' in /home/cabox/workspace/exo/index.php on line 14
+[20-Jan-2022 10:23:55 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/cabox/workspace/exo/index.php on line 11
+[20-Jan-2022 10:24:10 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/cabox/workspace/exo/index.php on line 11
+[20-Jan-2022 10:25:43 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/cabox/workspace/exo/index.php on line 11
+[20-Jan-2022 10:26:07 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/cabox/workspace/exo/index.php on line 11
+[20-Jan-2022 10:28:04 America/New_York] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home/cabox/workspace/exo/index.php on line 11
+[20-Jan-2022 10:28:33 America/New_York] PHP Parse error:  syntax error, unexpected 'age' (T_STRING), expecting ')' in /home/cabox/workspace/exo/index.php on line 28
