@@ -25,7 +25,7 @@ src="https://www.google.com/maps/embed/v1/directions?origin=place_id:ChIJA9uBGsR
   <div class="col-md-4">
 
     <div class="card" style="width: 18rem;">
-      <img src="/images/google-map.jpg" class="card-img-top" alt="Logo Google Map">
+      <img src="images/google-map.jpg" class="card-img-top" alt="Logo Google Map">
       <div class="card-body">
         <h5 class="card-title">Google Map</h5>
         <p class="card-text">Utilisation de “Google Map” dans un projet de site internet. Nous allons afficher une carte avec l'adresse d'Excelia Group La Rochelle sur cette page.</p>

@@ -16,7 +16,7 @@
   <div class="col-md-4">
 
     <div class="card" style="width: 18rem;">
-      <img src="/images/api.jpg" class="card-img-top" alt="Logo API">
+      <img src="images/api.jpg" class="card-img-top" alt="Logo API">
       <div class="card-body">
         <h5 class="card-title">API</h5>
         <p class="card-text">Utilisation d'une “API” dans un projet de site internet. Nous allons utiliser une API et la lecture d'un JSON depuis une URL.</p>

@@ -27,7 +27,7 @@
   <div class="col-md-4">
 
     <div class="card" style="width: 18rem;">
-      <img src="/images/swiperjs.png" class="card-img-top" alt="Logo SwiperJS">
+      <img src="images/swiperjs.png" class="card-img-top" alt="Logo SwiperJS">
       <div class="card-body">
         <h5 class="card-title">Swiper JS</h5>
         <p class="card-text">Utilisation de “Swiper JS” dans un projet de site internet. Réaliser un slider de 5 visuels sur cette page (<a href="https://swiperjs.com/demos/" target="_blank">demo</a>).</p>

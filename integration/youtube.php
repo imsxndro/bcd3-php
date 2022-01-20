@@ -12,7 +12,7 @@
   <div class="col-md-4">
 
     <div class="card" style="width: 18rem;">
-      <img src="/images/youtube.jpg" class="card-img-top" alt="Logo Youtube">
+      <img src="images/youtube.jpg" class="card-img-top" alt="Logo Youtube">
       <div class="card-body">
         <h5 class="card-title">Youtube</h5>
         <p class="card-text">Utilisation de “Youtube” dans un projet de site internet. Intégrer une vidéo Youtube sur la page.</p>

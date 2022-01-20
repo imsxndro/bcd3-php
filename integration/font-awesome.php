@@ -65,7 +65,7 @@
   <div class="col-md-4">
 
     <div class="card" style="width: 18rem;">
-      <img src="/images/font-awesome.png" class="card-img-top" alt="Logo font awesome">
+      <img src="images/font-awesome.png" class="card-img-top" alt="Logo font awesome">
       <div class="card-body">
         <h5 class="card-title">Font Awesome</h5>
         <p class="card-text">Utilisation de “Font Awesome” dans un projet de site internet. Après avoir récupérer un “Icône” sur le site de “Font Awesome”, nous allons l’utiliser sur cette page.</p>

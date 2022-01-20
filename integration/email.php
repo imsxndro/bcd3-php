@@ -28,7 +28,7 @@
   <div class="col-md-4">
 
     <div class="card" style="width: 18rem;">
-      <img src="/images/sendinblue.png" class="card-img-top" alt="Logo Google Map">
+      <img src="images/sendinblue.png" class="card-img-top" alt="Logo Google Map">
       <div class="card-body">
         <h5 class="card-title">Sendinblue</h5>
         <p class="card-text">Utilisation de “Sendinblue” dans un projet de site internet. Nous allons créer un formulaire sur Sendinblue, et l'afficher avec une iframe sur cette page.</p>
