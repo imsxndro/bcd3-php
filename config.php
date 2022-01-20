@@ -1,12 +1,12 @@
 <?php
 $titre = "Mon CV";
-$prenom = "John";
-$nom = "DOE";
-$email = "johndoe@tld.com";
+$prenom = "Sandro";
+$nom = "ALPHONSE";
+$email = "sandro@alphonse.xyz";
 $age = 20;
-$tel = "06 23 45 67 89";
+$tel = "01 23 45 67 89";
 $adresse = "140, City Center, New York, U.S.A";
-$langues = ["English", "German", "French"];
+$langues = ["English", "French"];
 $reseaux = [
     "facebook"  => "https://fr-fr.facebook.com/RedBull/",
     "twitter"   => "https://twitter.com/redbull",

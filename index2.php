@@ -9,26 +9,31 @@ echo "<br>";
 $moyenne = 15;
 echo "Ma moyenne cette estnnée est de ".$moyenne."/20 en BWD3";
 
-// tableau
-$couleur = []; // = $couleur = array();
-$couleur[] = "rouge";   // 0
-$couleur[] = "vert";   // 1
-$couleur[] = "bleu";   // 2
+/* tableau */
+$couleur = array();
+$couleur[] = "rouge";   // O
+$couleur[] = "vert";    // 1
+$couleur[] = "bleu";    // 2
 echo $couleur[1];
+
 echo "<br>";
 
-$couleur = []; // = $couleur = array();
-$couleur[5] = "rouge";   // 0
-$couleur[18] = "vert";   // 1
-$couleur[3] = "bleu";   // 2
-echo $couleur[18];
+$couleur = [
+    "red" => "rouge",
+    "green" => "vert",
+    "pink" => "rose",
+];
+echo $couleur["pink"];
+
 echo "<br>";
 
-$couleur = []; // = $couleur = array();
-$couleur["red"] = "rouge";   // 0
-$couleur["green"] = "vert";   // 1
-$couleur["blue"] = "bleu";   // 2
-echo $couleur["red"];
-echo "<br>";
+/* Afficher : "Mon nom est : John DOE" */
+
+$eleve = [
+    "joHn" => "John",
+    "doe" => "DOE",
+];
+
+echo strtoupper ("doe");
 
 ?>
