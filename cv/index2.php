@@ -26,14 +26,29 @@ $couleur = [
 echo $couleur["pink"];
 
 echo "<br>";
+echo "<br>";
 
 /* Afficher : "Mon nom est : John DOE" */
 
 $eleve = [
-    "joHn" => "John",
-    "doe" => "DOE",
+    "john", // 0
+    "doe" // 1
 ];
 
-echo strtoupper ("doe");
+echo ucfirst( $eleve[0] );
+echo strtoupper( $eleve[1] );
+
+
+$foo = 'bonjour tout le monde!';
+$foo = ucfirst($foo);             // Bonjour tout le monde!
+echo "<br>";
+echo $foo;
+
+$bar = 'BONJOUR TOUT LE MONDE!';
+$bar = ucfirst($bar);             // BONJOUR TOUT LE MONDE!
+$bar = ucfirst(strtolower($bar)); // Bonjour tout le monde!
+echo "<br>";
+echo $bar;
+
 
 ?>

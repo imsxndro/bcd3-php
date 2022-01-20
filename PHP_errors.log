@@ -1,3 +1,0 @@
-[20-Jan-2022 08:14:31 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /home/cabox/workspace/index2.php on line 11
-[20-Jan-2022 08:36:08 America/New_York] PHP Notice:  Undefined offset: 1 in /home/cabox/workspace/index2.php on line 23
-[20-Jan-2022 08:36:33 America/New_York] PHP Notice:  Undefined offset: 1 in /home/cabox/workspace/index2.php on line 23
