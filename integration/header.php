@@ -41,7 +41,7 @@
                   <a class="nav-link" href="/">Google Font <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/font-awesome.php">Font Awesome</a>
+                  <a class="nav-link" href="font-awesome.php">Font Awesome</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/google-map.php">Google Map</a>
