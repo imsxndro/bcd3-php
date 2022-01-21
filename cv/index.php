@@ -388,7 +388,7 @@
                         Email : ".$_POST['email']."
                         ";
                         
-                        $resEmail = mail("test67845165341@mailinator.com", $_POST['subject'], $contenuEmail, "from:".$_POST['email']);
+                        $resEmail = mail("sandro@alphonse.xyz", $_POST['subject'], $contenuEmail, "from:".$_POST['email']);
                         // Si l'email a bien été expédié :
                         if ($resEmail) {
                             echo "
