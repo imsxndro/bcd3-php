@@ -27,7 +27,7 @@
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">À propos</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Compétences</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Éxperiences</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Expériences</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
               </ul>
             </div>
