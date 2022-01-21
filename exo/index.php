@@ -40,7 +40,7 @@ if($notes >=10) {
     if ($notes === 10) {
         echo "Vous avez juste la moyenne.";
     } else {
-    echo "Vous avez une note supérieure à la moyenne.":
+    echo "Vous avez une note supérieure à la moyenne.";
     }
     } else {
     echo "Vous n'avez pas la moyenne.";
