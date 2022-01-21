@@ -319,7 +319,7 @@
         </div>
         ';
 
-    } // fin foreach
+    } // fin du foreach
     ?>
 
 
