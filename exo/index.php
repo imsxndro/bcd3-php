@@ -29,9 +29,9 @@ echo ucfirst(strtolower($classe[2]["prenom"])) . " ".strtoupper($classe[2]["nom"
 
 echo "Meilleure note : ".max($classe[2]["notes"])." / 20.";
 
-echo "<br>"
-echo "<br>"
-echo "<br>"
+echo "<br>";
+echo "<br>";
+echo "<br>";
 
 $notes = 15;
 
