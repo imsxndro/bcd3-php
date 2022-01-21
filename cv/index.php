@@ -1,12 +1,12 @@
 <?php require_once "config.php"; ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="fr-FR">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo $prenom." ".$nom; ?></title>
+    <title><?php echo $prenom." ".$nom " " - .$title; ?></title>
     <meta name="description" content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience."/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
@@ -79,11 +79,11 @@
               <div class="col-sm-8"><?php echo $email; ?></div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Téléphone:</strong></div>
               <div class="col-sm-8"><?php echo $tel; ?></div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Addresse:</strong></div>
               <div class="col-sm-8"><?php echo $adresse; ?></div>
             </div>
             <div class="row mt-3">
