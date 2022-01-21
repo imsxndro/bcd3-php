@@ -29,4 +29,21 @@ echo ucfirst(strtolower($classe[2]["prenom"])) . " ".strtoupper($classe[2]["nom"
 
 echo "Meilleure note : ".max($classe[2]["notes"])." / 20.";
 
+echo "<br>"
+echo "<br>"
+echo "<br>"
+
+$notes = 15;
+
+
+if($notes >=10) {
+    if ($notes === 10) {
+        echo "Vous avez juste la moyenne.";
+    } else {
+    echo "Vous avez une note supérieure à la moyenne.":
+    }
+    } else {
+    echo "Vous n'avez pas la moyenne.";
+    }
+
 ?>
