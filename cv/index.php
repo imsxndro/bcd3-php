@@ -24,10 +24,10 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">À propos</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Compétences</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Éxperiences</a></li>
                 <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
               </ul>
             </div>
@@ -45,7 +45,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="https://i.imgur.com/vUfFjRe.jpg" alt="Image"/></a></div>
           <div class="h2 title"><?php echo $prenom." ".$nom; ?></div>
-          <p class="category text-white">Web Developer, Graphic Designer, Photographer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          <p class="category text-white">Designer graphique</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">M'embauchez</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Téléchargez mon CV</a>
         </div>
       </div>
       <div class="section">
@@ -62,41 +62,39 @@
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">About</div>
-            <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
-            <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
+            <div class="h4 mt-0 title">À propos</div>
+            <p>Salut ! Je suis Sandro ALPHONSE, designer graphique chez CGR.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, doloremque delectus! Dicta reprehenderit animi quia voluptate omnis est quisquam ex, alias non. Doloribus, earum pariatur quisquam incidunt quae odio aliquam! <a href="https://templateflip.com/templates/creative-cv/" target="_blank">En savoir plus</a></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="h4 mt-0 title">Quelques informations</div>
             <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Age :</strong></div>
               <div class="col-sm-8"><?php echo $age; ?></div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Mail :</strong></div>
               <div class="col-sm-8"><?php echo $email; ?></div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Téléphone:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Téléphone :</strong></div>
               <div class="col-sm-8"><?php echo $tel; ?></div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Addresse:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Addresse :</strong></div>
               <div class="col-sm-8"><?php echo $adresse; ?></div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase">Langues :</strong></div>
               <div class="col-sm-8">
                   <?php
 
-                  // BOUCLER SUR LE TABLEAU $langues (STOCKÉ DANS config.php) :
+                  // boucle le tableau $langues :
                   foreach ($langues as $lang) {
                       echo $lang." ";
                   }
-
-                  //echo implode($langues, ", ");
                   ?>
               </div>
             </div>
@@ -108,7 +106,7 @@
 </div>
 <div class="section" id="skill">
   <div class="container">
-    <div class="h4 text-center mb-4 title">Professional Skills</div>
+    <div class="h4 text-center mb-4 title">Compétences</div>
     <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
         <div class="row">
@@ -297,35 +295,7 @@
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Work Experience</div>
-
-    <?php
-    /*
-    foreach ($workExperience as $we) {
-        echo '
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>'.$we["dateDebut"].' - '.$we["dateFin"].'</p>
-                <div class="h5">'.$we["societe"].'</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">'.$we["titre"].'</div>
-                <p>'.$we["description"].'</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        ';
-    }
-    */
-    ?>
-
-
-
+    <div class="h4 text-center mb-4 title">Expériences</div>
 
     <?php
     foreach ($workExperience as $we) {
@@ -476,7 +446,7 @@
         <div class="row">
           <div class="col-md-9">
             <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
+              <div class="h4 text-center title">Contactez-moi</div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="card-body">
@@ -513,7 +483,7 @@
                     }                    
                     ?>
                     <form action="" method="POST">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="p pb-3"><strong>N'hésitez pas à me contacter </strong></div>
                       <div class="row mb-3">
                         <div class="col">
                           <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
@@ -553,11 +523,11 @@
                 </div>
                 <div class="col-md-6">
                   <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
+                    <p class="mb-0"><strong>Addresse </strong></p>
                     <p class="pb-2"><?php echo $adresse; ?></p>
-                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="mb-0"><strong>Téléphone</strong></p>
                     <p class="pb-2"><?php echo $tel; ?></p>
-                    <p class="mb-0"><strong>Email</strong></p>
+                    <p class="mb-0"><strong>Mail</strong></p>
                     <p><?php echo $email; ?></p>
                   </div>
                 </div>
@@ -585,9 +555,9 @@
             <i class="fa fa-instagram fa-2x " aria-hidden="true"></i>
         </a>
       </div>
-      <div class="h4 title text-center">Anthony Barnett</div>
+      <div class="h4 title text-center">Sandro ALPHONSE</div>
       <div class="text-center text-muted">
-        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+        <p>&copy; Sandro ALPHONSE. Tous droits réservés.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>
     </footer>
     <script src="js/core/jquery.3.2.1.min.js"></script>
