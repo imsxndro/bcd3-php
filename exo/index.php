@@ -46,4 +46,23 @@ if($notes >=10) {
     echo "Vous n'avez pas la moyenne.";
     }
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+    $action = 3;
+switch($action) {
+    case 1 :
+        echo "J'attaque";
+        break;
+    case 2 :
+        echo "Je défends";
+        break;
+    case 3 :
+        echo "Je ne fais rien";
+        break;
+    default :
+    echo "Action inconnue";
+}
+
 ?>
