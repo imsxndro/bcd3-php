@@ -43,7 +43,7 @@
       <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg');"></div>
       <div class="container">
         <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="https://instagram.fcdg4-1.fna.fbcdn.net/v/t51.2885-19/s320x320/262748145_1111306096355078_4443158905719319957_n.jpg?_nc_ht=instagram.fcdg4-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=I4cagWYp3u8AX_6m5cX&edm=ABfd0MgBAAAA&ccb=7-4&oh=00_AT8NK93Pl-MSO62RQZfLTEu0CiVCeAclwEjwyQv4CBQKUw&oe=61F09515&_nc_sid=7bff83" alt="Image"/></a></div>
+          <div class="cc-profile-image"><a href="#"><img src="https://i.imgur.com/vUfFjRe.jpg" alt="Image"/></a></div>
           <div class="h2 title"><?php echo $prenom." ".$nom; ?></div>
           <p class="category text-white">Web Developer, Graphic Designer, Photographer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
