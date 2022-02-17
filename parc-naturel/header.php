@@ -1,4 +1,4 @@
-<?php include_once "config.php";
+<?php include_once "config.php"; ?>
        <!-- En-tête du site -->
         <header class="display-flex">
             <!-- Logo -->
@@ -10,17 +10,18 @@
                     <a href="#"><img src="images/shopping-basket.png" /></a>
                 </div>
                 <!-- Menu principal -->
-    foreach ($menu) {
+                <?php
+    foreach ($menu as $nav) {
 
         echo '
         <nav>
                     <ul class="display-flex">
-                        <li><a href="#">'.$menu["/"].'</a></li>
-                        <li><a href="#">'.$menu["/a-propos.php"].'</a></li>
-                        <li><a href="#">'.$menu["/galerie.php"].'</a></li>
-                        <li><a href="#">'.$menu["/pratique.php"].'</a></li>
-                        <li><a href="#">'.$menu["/blog.php"].'</a></li>
-                        <li><a href="#">'.$menu["/contact.php"].'</a></li>
+                        <li><a href="#">'.$nav["/"].'</a></li>
+                        <li><a href="#">'.$nav["/a-propos.php"].'</a></li>
+                        <li><a href="#">'.$nav["/galerie.php"].'</a></li>
+                        <li><a href="#">'.$nav["/pratique.php"].'</a></li>
+                        <li><a href="#">'.$nav["/blog.php"].'</a></li>
+                        <li><a href="#">'.$nav["/contact.php"].'</a></li>
                     </ul>
                 </nav>
         ';
