@@ -11,22 +11,11 @@
                 </div>
                 <!-- Menu principal -->
                 <?php
+    echo '<nav><ul class="display-flex">'
     foreach ($menu as $nav) {
-
-        echo '
-        <nav>
-                    <ul class="display-flex">
-                        <li><a href="#">'.$nav["/"].'</a></li>
-                        <li><a href="#">'.$nav["/a-propos.php"].'</a></li>
-                        <li><a href="#">'.$nav["/galerie.php"].'</a></li>
-                        <li><a href="#">'.$nav["/pratique.php"].'</a></li>
-                        <li><a href="#">'.$nav["/blog.php"].'</a></li>
-                        <li><a href="#">'.$nav["/contact.php"].'</a></li>
-                    </ul>
-                </nav>
-        ';
-
+        echo '<li><a href="#">'.$nav'</a></li>';
     } // fin du foreach
+echo '</ul></nav>'
     ?>
             </div>
         </header>
