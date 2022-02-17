@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>        
-        <meta charset="UTF-8" />
-        <title>Parc naturel de Brie en Dardet - Charente-Maritime</title>
-        <meta name="description" content="Venez découvrir le Parc Naturel de Brie en Dardet, ouvert toute l'année. Réservez au 05 00 00 00 00" />              
-        <link rel="stylesheet" href="reset.css" />
-        <link rel="stylesheet" href="style.css" />
-        <meta name="viewport" content="width:device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet"> 
-    </head>
-    <body class="container">
     <?php require_once "header.php"; ?> 
         <!-- Contenu principal-->
         <main>
@@ -31,26 +17,15 @@
                 <h2>Les incontournables du parc</h2>
                 <p>Vous venez pour un court-séjour, découvrez les merveilles naturelles de Brie en Dardet</p>
                 <div class="display-flex">
+                <?php
+                foreach ($incontournables as $inc) {
+                    echo '
                     <div>
-                        <img src="images/glacier-ga0a01878a_640.jpg" />
-                        <h3>La forêt de Sequoia</h3>
-                        <p>La plus grande densité au monde d’arbres
-                            millénaires, des arbres de plus de 40
-                            mètres de haut</p>
-                    </div>
-                    <div>
-                        <img src="images/nature-gda19b88ec_640.jpg" />
-                        <h3>Les gorges du Dardet</h3>
-                        <p>Au coeur de paysages lunaires, le Dardet a
-                            creusé son lit spectaculaire</p>
-                    </div>
-                    <div>
-                        <img src="images/road-g53d3b1c26_640.jpg" />
-                        <h3>Le glacier de Briefane</h3>
-                        <p>Serpentant au fond de la vallée de la
-                            Briefane, le glacier haut de 15 mètres
-                            s’offre majestueusement au regard</p>
-                    </div>
+                    <img src="/parc-naturel/'.$inc["image"].'" />
+                    <h3>'.$inc["titre"].'</h3>
+                    <p>'.$inc["description"].'';
+               } // fin du foreach
+         ?>
                 </div>
             </section>
             <!-- Contact -->
