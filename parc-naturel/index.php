@@ -83,7 +83,7 @@
                     <!-- Champ message-->
                     <div class="span-12">                        
                         <label for="message">Votre message</label>
-                        <textarea name="your-message" id="message" cols="30" rows="10" required="required">Entrez votre message ici</textarea>
+                        <textarea name="your-message" id="message" cols="30" rows="10" placeholder="Entrez votre message ici" required="required"></textarea>
                     </div>
                     <!-- Champ validation newsletter-->
                     <div class="span-12">  
