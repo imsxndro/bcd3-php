@@ -23,7 +23,8 @@
                     <div>
                     <img src="/parc-naturel/'.$inc["image"].'" />
                     <h3>'.$inc["titre"].'</h3>
-                    <p>'.$inc["description"].'';
+                    <p>'.$inc["description"].'
+                    </div>';
                } // fin du foreach
          ?>
                 </div>
