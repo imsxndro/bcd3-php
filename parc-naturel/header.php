@@ -21,6 +21,4 @@
                 ?>
             </div>
         </header>
-        <body class="container">
-
 
