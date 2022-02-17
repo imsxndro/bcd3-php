@@ -11,14 +11,14 @@
                 </div>
                 <!-- Menu principal -->
                 <?php
- foreach ($menu as $nav) {
-    echo '
-<nav>
-<ul class="display-flex">
-<li><a href="#">.$nav</a></li>
-</ul></nav>';
-    } // fin du foreach
-    ?>
+                    echo '<nav><ul class="display-flex">'
+                    
+                    foreach ($menu as $key => $value ) {
+                        echo '<li><a href="'$key'">'$value'</a></li>';
+                    }
+
+                    echo '</ul></nav>'
+                ?>
             </div>
         </header>
         <body class="container">
