@@ -43,7 +43,7 @@
                         Email : ".$_POST['your-email']."
                         ";
                         
-                        $resEmail = mail("sandro@alphonse.xyz", $_POST['your-subject'], $contenuEmail, "from:".$_POST['email']);
+                        $resEmail = mail("sandro@alphonse.xyz", $_POST['your-subject'], $contenuEmail, "from:".$_POST['your-email']);
                         // Si l'email a bien été expédié :
                         if ($resEmail) {
                             echo "
@@ -68,12 +68,12 @@
                     <!-- Champ nom -->
                     <div class="span-6">
                         <label for="nom">Votre nom</label>
-                        <input type="text" id="nom" name="your-name" placeholder="Entrez votre nom complet" />
+                        <input type="text" id="nom" name="your-name" placeholder="Entrez votre nom complet" required="required" />
                     </div>
                     <!-- Champ email -->
                     <div class="span-6">
                         <label for="mail">Votre email</label>
-                        <input type="email" id="mail" name="your-email" placeholder="votre@nom.com" />
+                        <input type="email" id="mail" name="your-email" placeholder="votre@nom.com" required="required" />
                     </div>
                     <!-- Champ sujet -->
                     <div class="span-6">
@@ -83,7 +83,7 @@
                     <!-- Champ message-->
                     <div class="span-12">                        
                         <label for="message">Votre message</label>
-                        <textarea name="your-message" id="message" cols="30" rows="10">Entrez votre message ici</textarea>
+                        <textarea name="your-message" id="message" cols="30" rows="10" required="required">Entrez votre message ici</textarea>
                     </div>
                     <!-- Champ validation newsletter-->
                     <div class="span-12">  
