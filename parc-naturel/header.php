@@ -10,15 +10,16 @@
                     <a href="#"><img src="images/shopping-basket.png" /></a>
                 </div>
                 <!-- Menu principal -->
-                <?php
-                    foreach ($menu as $key => $value) {
-                        echo '
-                        <nav>
-                        <ul class="display-flex">
-                        <li><a href="'.$key.'>'.$value.'</a></li>
-                        </ul></nav>';
-                    } // fin du foreach
-                ?>
+                <nav>
+                <ul class="display-flex">
+                 <?php
+                      foreach ($menu as $key => $value) {
+                            echo '
+                            <li><a href="'.$key.'>'.$value.'</a></li>';
+                       } // fin du foreach
+                 ?>
+                </ul></nav>
             </div>
         </header>
 
+<!-- mec regarde index.php -->

@@ -11,8 +11,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet"> 
     </head>
-    <?php require_once "header.php"; ?>
     <body class="container">
+    <?php require_once "header.php"; ?> 
+    <!-- bv -->
         <!-- Contenu principal-->
         <main>
             <!-- Présentation -->
