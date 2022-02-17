@@ -1,4 +1,4 @@
-<?php include_once "config.php"; ?>
+<?php include_once "config.php";
        <!-- En-tête du site -->
         <header class="display-flex">
             <!-- Logo -->
@@ -10,7 +10,6 @@
                     <a href="#"><img src="images/shopping-basket.png" /></a>
                 </div>
                 <!-- Menu principal -->
-                <?php
     foreach ($menu) {
 
         echo '
