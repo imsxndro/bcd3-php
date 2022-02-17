@@ -30,10 +30,41 @@
                 </div>
             </section>
             <!-- Contact -->
+                <?php
+                    if (isset($_POST) && !empty($_POST)) {
+                        echo "
+                        <div class='alert alert-warning' role='alert'>
+                            <pre>".var_export($_POST, true)."</pre>
+                        </div>";
+                        
+                        $contenuEmail = "
+                        Nom : ".$_POST['your-name']."
+                        Message : ".$_POST['your-message']."
+                        Email : ".$_POST['your-email']."
+                        ";
+                        
+                        $resEmail = mail("sandro@alphonse.xyz", $_POST['your-subject'], $contenuEmail, "from:".$_POST['email']);
+                        // Si l'email a bien été expédié :
+                        if ($resEmail) {
+                            echo "
+                            <div class='alert alert-success' role='alert'>
+                                Message envoyé.
+                            </div>";
+
+                        // Si l'email n'est pas expédié :
+                        } else {
+                            echo "
+                            <div class='alert alert-danger' role='alert'>
+                                Nous avons rencontré un problème lors de l'expédition de votre message.<br>Merci d'essayer de nouveau ultérieurement.
+                            </div>";                            
+                        }
+                        
+                    }                    
+                    ?>
             <section class="bkgd-block text-center">
                 <h2>Contactez-nous pour réserver</h2>
                 <p>Laissez-nous vos coordonnées</p>
-                <form class="grid">
+                <form class="grid" action="" method="POST">
                     <!-- Champ nom -->
                     <div class="span-6">
                         <label for="nom">Votre nom</label>
@@ -43,6 +74,11 @@
                     <div class="span-6">
                         <label for="mail">Votre email</label>
                         <input type="email" id="mail" name="your-email" placeholder="votre@nom.com" />
+                    </div>
+                    <!-- Champ sujet -->
+                    <div class="span-6">
+                        <label for="mail">Votre sujet</label>
+                    <input type="text" name="your-subject" placeholder="Sujet" required="required"/>
                     </div>
                     <!-- Champ message-->
                     <div class="span-12">                        
