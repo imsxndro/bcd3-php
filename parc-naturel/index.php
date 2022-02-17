@@ -13,7 +13,6 @@
     </head>
     <body class="container">
     <?php require_once "header.php"; ?> 
-    <!-- bv -->
         <!-- Contenu principal-->
         <main>
             <!-- Présentation -->
