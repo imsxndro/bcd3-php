@@ -1,4 +1,5 @@
-        <!-- En-tête du site -->
+<?php include_once "config.php"; ?>
+       <!-- En-tête du site -->
         <header class="display-flex">
             <!-- Logo -->
             <a href="#"><img src="images/logo.png" /></a>
@@ -9,16 +10,24 @@
                     <a href="#"><img src="images/shopping-basket.png" /></a>
                 </div>
                 <!-- Menu principal -->
-                <nav>
+                <?php
+    foreach ($menu) {
+
+        echo '
+        <nav>
                     <ul class="display-flex">
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">A propos</a></li>
-                        <li><a href="#">Galerie</a></li>
-                        <li><a href="#">Pratique</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">'.$menu["/"].'</a></li>
+                        <li><a href="#">'.$menu["/a-propos.php"].'</a></li>
+                        <li><a href="#">'.$menu["/galerie.php"].'</a></li>
+                        <li><a href="#">'.$menu["/pratique.php"].'</a></li>
+                        <li><a href="#">'.$menu["/blog.php"].'</a></li>
+                        <li><a href="#">'.$menu["/contact.php"].'</a></li>
                     </ul>
                 </nav>
+        ';
+
+    } // fin du foreach
+    ?>
             </div>
         </header>
+        <body class="container">
