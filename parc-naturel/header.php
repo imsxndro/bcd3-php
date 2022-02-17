@@ -15,11 +15,9 @@
                  <?php
                       foreach ($menu as $key => $value) {
                             echo '
-                            <li><a href="'.$key.'">'.$value.'</a></li>';
+                            <li><a href="/parc-naturel/'.$key.'">'.$value.'</a></li>';
                        } // fin du foreach
                  ?>
                 </ul></nav>
             </div>
         </header>
-
-<!-- mec regarde index.php -->
