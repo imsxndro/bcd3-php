@@ -47,3 +47,26 @@ $articles = [
         "description_longue" => "Ac turpis egestas integer eget aliquet nibh praesent. Massa id neque aliquam vestibulum morbi. Purus gravida quis blandit turpis cursus in hac. Augue neque gravida in fermentum et sollicitudin ac orci. A iaculis at erat pellentesque adipiscing commodo. Metus aliquam eleifend mi in nulla. Vivamus arcu felis bibendum ut. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. ",
     ],
 ];
+
+$activites = [
+    [
+        "image"         => "images/forest.png",
+        "titre"         => "Accrobranche",
+        "description"   => "Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.",
+    ],
+    [
+        "image"         => "images/kayak.png",
+        "titre"         => "Canyoning",
+        "description"   => "Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.",
+    ],
+    [
+        "image"         => "images/climbing.png",
+        "titre"         => "Randonnée",
+        "description"   => "Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.",
+    ],
+    [
+        "image"         => "images/saddle.png",
+        "titre"         => "Équitation",
+        "description"   => "Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.",
+    ],
+];

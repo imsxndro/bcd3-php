@@ -20,26 +20,16 @@
                 <p>Nous proposons de nombreuses activités dans le parc, pour tous les âges</p>
                 <!-- Tuiles activités -->
                 <div class="display-flex">
+                <?php
+                foreach ($activites as $act) {
+                    echo '
                     <div>
-                        <img src="images/forest.png" alt="" />
-                        <h3>Accrobranche</h3>
-                        <p>Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.</p>
-                    </div>
-                    <div>
-                        <img src="images/kayak.png" alt="" />
-                        <h3>Canyoning</h3>
-                        <p>Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.</p>
-                    </div>
-                    <div>
-                        <img src="images/climbing.png" alt="" />
-                        <h3>Randonnée</h3>
-                        <p>Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.</p>
-                    </div>
-                    <div>
-                        <img src="images/saddle.png" alt="" />
-                        <h3>Équitation</h3>
-                        <p>Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.</p>
-                    </div>
+                    <img src="/parc-naturel/'.$act["image"].'" />
+                    <h3>'.$act["titre"].'</h3>
+                    <p>'.$act["description"].'
+                    </div>';
+               } // fin du foreach
+         ?>
                 </div>
             </section>
 
