@@ -3,9 +3,8 @@
 $menu = [
     "/"             => "Accueil",
     "/a-propos.php" => "A propos",
+    "/shop.php"     => "Shop",
     "/blog.php"     => "Blog",
-    "/shop.php"     => "Boutique",
-    "/produit.php"  => "Produit",
     "/contact.php"  => "Contact",
 ];
 
