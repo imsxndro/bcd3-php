@@ -31,14 +31,24 @@
                } // fin du foreach
          ?>
                 </div>
+                
                 <?php
+                // Si j'ai un ID d'article dans l'url, alors j'affiche l'article
+                if (isset( $_GET["idArticle"] )) {
+
+                    echo '
+                    <img src="'.$incontournables[ $_GET["idArticle"] ]["image"].'" alt="">
+                    <h3>'.$incontournables[ $_GET["idArticle"] ]["titre"].'</h3>
+                    '.$incontournables[ $_GET["idArticle"] ]["description_longue"].'
+                    ';
+                
          // Récupérer une variable dans l'URL :
          // echo "Id de l'article qui est présent dans l'URL : ".$_GET["idArticle"]; 
          
-         echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
-         echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
-         echo $incontournables[ $_GET["idArticle"] ]["description"].
-         "<br>";
+         // echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
+         // echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
+         // echo $incontournables[ $_GET["idArticle"] ]["description"]."<br>";
+        }
          ?>
             </section>
         </main>
