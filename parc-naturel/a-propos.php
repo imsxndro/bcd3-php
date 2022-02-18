@@ -39,21 +39,16 @@
                 <p>Rencontres les membres de notre équipe</p>
                 <!-- Tuiles incontournables -->
                 <div class="display-flex ">
+                <?php
+                foreach ($equipes as $equ) {
+                    echo '
                     <div>
-                        <img src="images/placeholder.png" alt="" />
-                        <h3>Prenom Nom</h3>
-                        <p>Poste</p>
-                    </div>
-                    <div>
-                        <img src="images/placeholder.png" alt="" />
-                        <h3>Prenom Nom</h3>
-                        <p>Poste</p>
-                    </div>
-                    <div>
-                        <img src="images/placeholder.png" alt="" />
-                        <h3>Prenom Nom</h3>
-                        <p>Poste</p>
-                    </div>
+                    <img src="/parc-naturel/'.$equ["image"].'" />
+                    <h3>'.$equ["titre"].'</h3>
+                    <p>'.$equ["description"].'
+                    </div>';
+               } // fin du foreach
+         ?>
                 </div>
             </section>
 

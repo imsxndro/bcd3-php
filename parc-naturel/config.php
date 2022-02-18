@@ -70,3 +70,21 @@ $activites = [
         "description"   => "Praesent fermentum eu velit id commodo. Aliquam consectetur commodo sapien, eget egestas elit rutrum et.",
     ],
 ];
+
+$equipes = [
+    [
+        "image"         => "images/elon.jpg",
+        "titre"         => "Elon Musk",
+        "description"   => "PDG",
+    ],
+    [
+        "image"         => "images/bezos.jpg",
+        "titre"         => "Jeff Bezos",
+        "description"   => "Designer",
+    ],
+    [
+        "image"         => "images/zuck.jpg",
+        "titre"         => "Mark Zuckerberg ",
+        "description"   => "Stagiaire",
+    ],
+];
