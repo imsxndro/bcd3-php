@@ -20,8 +20,8 @@ $incontournables = [
     [
         "image"               => "images/nature-gda19b88ec_640.jpg",
         "titre"               => "Les Gorges du Dardet",
-        "description"         => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "description_longue"  => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. In eu mi bibendum neque. Ultricies leo integer malesuada nunc vel risus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Nulla aliquet enim tortor at. Mattis pellentesque id nibh tortor id. Vel quam elementum pulvinar etiam non quam lacus. Nisl pretium fusce id velit ut tortor. Blandit volutpat maecenas volutpat blandit aliquam etiam.",
+        "description"         => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua.",
+        "description_longue"  => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et aliqua. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. In eu mi bibendum neque. Ultricies leo integer malesuada nunc vel risus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Nulla aliquet enim tortor at. Mattis pellentesque id nibh tortor id. Vel quam elementum pulvinar etiam non quam lacus. Nisl pretium fusce id velit ut tortor. Blandit volutpat maecenas volutpat blandit aliquam etiam.",
     ],
     [
         "image"              => "images/road-g53d3b1c26_640.jpg",
