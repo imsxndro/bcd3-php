@@ -23,8 +23,14 @@
                     <img src="/parc-naturel/'.$inc["image"].'" />
                     <h3>'.$inc["titre"].'</h3>
                     <p>'.$inc["description"].'
+                    
                     </div>';
                } // fin du foreach
+         ?>
+
+         <?php
+         // Récupérer une variable dans l'URL :
+         echo var_dump($_GET["idArticle"] );
          ?>
                 </div>
             </section>
