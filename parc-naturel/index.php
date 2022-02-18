@@ -96,15 +96,22 @@
                     </div>
                 </form>
             </section>
-            <!-- Equipe -->
-            <section class="display-flex">
-                <div>
-                    <h2>L'équipe</h2>
-                    <p>Chapô - vnkjze cmaenbpv vipneazbv</p>
-                    <p><a href="#">Découvrez nos métiers</a></p>
-                </div>
-                <div>
-                    <img src="images/young-people-g1b98eb372_640.jpg" />
+            <!-- Section Equipes -->
+            <section class="bkgd-block text-center">
+                <h2>Les équipes</h2>
+                <p>Rencontres les membres de notre équipe</p>
+                <!-- Tuiles incontournables -->
+                <div class="display-flex ">
+                <?php
+                foreach ($equipes as $equ) {
+                    echo '
+                    <div>
+                    <img src="/parc-naturel/'.$equ["image"].'" />
+                    <h3>'.$equ["titre"].'</h3>
+                    <p>'.$equ["description"].'
+                    </div>';
+               } // fin du foreach
+         ?>
                 </div>
             </section>
         </main>
