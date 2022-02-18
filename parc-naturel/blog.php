@@ -8,7 +8,7 @@
                     <p>Apprenez-en plus sur les splendeurs d’un parc naturel niché entre la forêt de Vézole et la vallée de l’Arpack</p>
                 </div>
                 <div>
-                    <img src="images/krka-gd03cf86d1_640" />
+                    <img src="images/krka-gd03cf86d1_640.jpg" />
                 </div>
             </section>
             <!-- Incontournables -->
@@ -23,7 +23,8 @@
                     <img src="/parc-naturel/'.$inc["image"].'" />
                     <h3>'.$inc["titre"].'</h3>
                     <p>'.$inc["description"].'
-                    
+                    <a class="button" href="?idArticle=0">
+                    Lire la suite</a>
                     </div>';
                } // fin du foreach
          ?>
