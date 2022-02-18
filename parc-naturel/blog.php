@@ -39,7 +39,6 @@
          echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
          echo $incontournables[ $_GET["idArticle"] ]["description"].
          "<br>";
-
          ?>
                 </div>
             </section>
