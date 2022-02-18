@@ -6,10 +6,9 @@
                 <div>
                     <h1>Contactez-nous</h1>
                     <p>N'hésitez pas !</p>
-                    <p><a class="button" href="#">Bouton</a><a class="button" href="#">Bouton</a></p>
                 </div>
                 <div>
-                    <img src="images/foret-sequoia-parc-naturel-dardet-charente-maritime.jpg" />
+                    <img src="images/startup-ga717aeefb_640.jpg" />
                 </div>
             </section>
             <!-- Contact -->
