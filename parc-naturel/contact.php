@@ -22,7 +22,6 @@
 
                 $con = mysqli_connect('localhost', 'root', '',’db_contact’);
                 $sql = "INSERT INTO `tbl_contact` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('0', '$txtName', '$txtEmail', '$txtSubject', '$txtMessage');"
-                $rs = mysqli_query($con, $sql);
 
                 
 
