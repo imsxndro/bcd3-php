@@ -25,6 +25,7 @@
                         <p>
                             '.$id["description"].'
                             <a class="button" href="?idArticle='.$id.'">Lire la suite</a>
+                        </p>
                     </div>';
                } // fin du foreach
          ?>
