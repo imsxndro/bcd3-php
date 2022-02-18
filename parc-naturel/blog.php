@@ -30,8 +30,8 @@
                     </div>';
                } // fin du foreach
          ?>
-
-         <?php
+                </div>
+                <?php
          // Récupérer une variable dans l'URL :
          // echo "Id de l'article qui est présent dans l'URL : ".$_GET["idArticle"]; 
          
@@ -40,7 +40,6 @@
          echo $incontournables[ $_GET["idArticle"] ]["description"].
          "<br>";
          ?>
-                </div>
             </section>
         </main>
         <?php require_once "footer.php"; ?>   
