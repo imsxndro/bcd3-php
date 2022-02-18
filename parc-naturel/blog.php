@@ -23,7 +23,7 @@
                     <img src="/parc-naturel/'.$inc["image"].'" />
                     <h3>'.$inc["titre"].'</h3>
                     <p>'.$inc["description"].'
-                            <a class="button" href="?idArticle='.$id.'">
+                            <a class="button" href="article.php?idArticle='.$id.'">
                             Lire la suite
                             </a>
                         </p>
