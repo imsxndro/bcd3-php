@@ -31,7 +31,12 @@
 
          <?php
          // Récupérer une variable dans l'URL :
-         echo var_dump($_GET["idArticle"] );
+         // echo "Id de l'article qui est présent dans l'URL : ".$_GET["idArticle"]; 
+         
+         echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
+         echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
+         echo $incontournables[ $_GET["idArticle"] ]["description"]."<br>";
+
          ?>
                 </div>
             </section>
