@@ -9,20 +9,20 @@
 
                     echo '
                     <div>
-                        <h1>'.$incontournables[ $_GET["idArticle"] ]["titre"].'</h1>
-                        <p>'.$incontournables[ $_GET["idArticle"] ]["description_longue"].'</p>
+                        <h1>'.$articles[ $_GET["idArticle"] ]["titre"].'</h1>
+                        <p>'.$articles[ $_GET["idArticle"] ]["description_longue"].'</p>
                     </div>
                     <div>
-                    <img src="'.$incontournables[ $_GET["idArticle"] ]["image"].'" alt="">
+                    <img src="'.$articles[ $_GET["idArticle"] ]["image"].'" alt="">
                     </div>
                     ';
                 
          // Récupérer une variable dans l'URL :
          // echo "Id de l'article qui est présent dans l'URL : ".$_GET["idArticle"]; 
          
-         // echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
-         // echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
-         // echo $incontournables[ $_GET["idArticle"] ]["description"]."<br>";
+         // echo $articles[ $_GET["idArticle"] ]["image"]."<br>";
+         // echo $articles[ $_GET["idArticle"] ]["titre"]."<br>";
+         // echo $articles[ $_GET["idArticle"] ]["description"]."<br>";
         }
          ?>
             </section>
