@@ -17,14 +17,16 @@
                 <p>Vous venez pour un court-séjour, découvrez les merveilles naturelles de Brie en Dardet</p>
                 <div class="display-flex">
                 <?php
-                foreach ($incontournables as $id) {
+                foreach ($incontournables as $inc) {
                     echo '
                     <div>
-                        <img src="/parc-naturel/'.$id["image"].'" />
-                        <h3>'.$id["titre"].'</h3>
+                        <img src="/parc-naturel/'.$inc["image"].'" />
+                        <h3>'.$inc["titre"].'</h3>
                         <p>
-                            '.$id["description"].'
-                            <a class="button" href="?idArticle='.$id.'">Lire la suite</a>
+                            '.$inc["description"].'
+                            <a class="button" href="?idArticle='.$inc.'">
+                            Lire la suite
+                            </a>
                         </p>
                     </div>';
                } // fin du foreach
@@ -36,7 +38,8 @@
          
          echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
          echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
-         echo $incontournables[ $_GET["idArticle"] ]["description"]."<br>";
+         echo $incontournables[ $_GET["idArticle"] ]["description"].
+         "<br>";
 
          ?>
                 </div>
