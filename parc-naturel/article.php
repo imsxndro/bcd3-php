@@ -3,29 +3,29 @@
         <main>
             <!-- Présentation -->
             <section class="display-flex">
-                <div>
-                    <h1>Les articles du Parc naturel de Brie en Dardet</h1>
-                    <p>Apprenez-en plus sur les splendeurs d’un parc naturel niché entre la forêt de Vézole et la vallée de l’Arpack</p>
-                </div>
-                <div>
-                    <img src="images/krka-gd03cf86d1_640" />
-                </div>
-            </section>
-            <!-- Incontournables -->
-            <section class="text-center">
-                <h2>Nos articles</h2>
-                <p>Vous venez pour un court-séjour, découvrez les merveilles naturelles de Brie en Dardet</p>
-                <div class="display-flex">
-                <?php
-                foreach ($incontournables as $inc) {
+            <?php
+                // Si j'ai un ID d'article dans l'url, alors j'affiche l'article
+                if (isset( $_GET["idArticle"] )) {
+
                     echo '
                     <div>
-                    <img src="/parc-naturel/'.$inc["image"].'" />
-                    <h3>'.$inc["titre"].'</h3>
-                    <p>'.$inc["description"].'
-                    </div>';
-               } // fin du foreach
+                        <h1>'.$incontournables[ $_GET["idArticle"] ]["titre"].'</h1>
+                        <p>'.$incontournables[ $_GET["idArticle"] ]["description_longue"].'</p>
+                    </div>
+                    <div>
+                    <img src="'.$incontournables[ $_GET["idArticle"] ]["image"].'" alt="">
+                    </div>
+                    ';
+                
+         // Récupérer une variable dans l'URL :
+         // echo "Id de l'article qui est présent dans l'URL : ".$_GET["idArticle"]; 
+         
+         // echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
+         // echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
+         // echo $incontournables[ $_GET["idArticle"] ]["description"]."<br>";
+        }
          ?>
+            </section>
                 </div>
             </section>
         </main>

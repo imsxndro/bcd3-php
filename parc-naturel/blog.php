@@ -11,13 +11,13 @@
                     <img src="images/krka-gd03cf86d1_640.jpg" />
                 </div>
             </section>
-            <!-- Incontournables -->
+            <!-- Articles -->
             <section class="text-center">
                 <h2>Nos articles</h2>
                 <p>Vous venez pour un court-séjour, découvrez les merveilles naturelles de Brie en Dardet</p>
                 <div class="display-flex">
                 <?php
-                foreach ($incontournables as $id => $inc) {
+                foreach ($articles as $id => $inc) {
                     echo '
                     <div>
                     <img src="/parc-naturel/'.$inc["image"].'" />
@@ -37,17 +37,17 @@
                 if (isset( $_GET["idArticle"] )) {
 
                     echo '
-                    <img src="'.$incontournables[ $_GET["idArticle"] ]["image"].'" alt="">
-                    <h3>'.$incontournables[ $_GET["idArticle"] ]["titre"].'</h3>
-                    '.$incontournables[ $_GET["idArticle"] ]["description_longue"].'
+                    <img src="'.$articles[ $_GET["idArticle"] ]["image"].'" alt="">
+                    <h3>'.$articles[ $_GET["idArticle"] ]["titre"].'</h3>
+                    '.$articles[ $_GET["idArticle"] ]["description_longue"].'
                     ';
                 
          // Récupérer une variable dans l'URL :
          // echo "Id de l'article qui est présent dans l'URL : ".$_GET["idArticle"]; 
          
-         // echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
-         // echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
-         // echo $incontournables[ $_GET["idArticle"] ]["description"]."<br>";
+         // echo $articles[ $_GET["idArticle"] ]["image"]."<br>";
+         // echo $articles[ $_GET["idArticle"] ]["titre"]."<br>";
+         // echo $articles[ $_GET["idArticle"] ]["description"]."<br>";
         }
          ?>
             </section>
