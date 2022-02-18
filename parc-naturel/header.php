@@ -21,7 +21,7 @@
                 <!-- Bloc compte -->
                 <div>
                     <a href="#"><img src="images/compte.png" /></a>
-                    <a href="#"><img src="images/shopping-basket.png" /></a>
+                    <a href="/parc-naturel/panier.php"><img src="images/shopping-basket.png" /></a>
                 </div>
                 <!-- Menu principal -->
                 <nav>
