@@ -14,7 +14,7 @@ $incontournables = [
         "image"                => "images/glacier-ga0a01878a_640.jpg",
         "titre"                => "La forêt de Séquoia",
         "description"          => "La plus grande densité au monde d'arbres millénaires, des arbres de plus de 40 mètres de haut",
-        "description_longue"   => "La plus grande densité au monde d'arbres millénaires, des arbres de plus de 40 mètres de haut. Longtemps on a pensé que cet arbre avait atteint un âge de 2000 à 3000 ans. D'autres faisaient mention de 6000 à 11000 ans. Mais des recherches scientifiques de 2002 ont montré que cet arbre a "seulement" environ 2000 ans.
+        "description_longue"   => "La plus grande densité au monde d'arbres millénaires, des arbres de plus de 40 mètres de haut. Longtemps on a pensé que cet arbre avait atteint un âge de 2000 à 3000 ans. D'autres faisaient mention de 6000 à 11000 ans. Mais des recherches scientifiques de 2002 ont montré que cet arbre a seulement environ 2000 ans.
         Dans le passé des arbres furent abattus qui paraissaient avoir un âge de 3220 ans(par comptage des cernes) et on croit que des séquoias géants d'environ 4000 ans existent, parce que les plus vieux ne sont pas du tout aussi les plus grands.",
     ],
     [
