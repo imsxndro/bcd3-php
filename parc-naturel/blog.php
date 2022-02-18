@@ -17,14 +17,14 @@
                 <p>Vous venez pour un court-séjour, découvrez les merveilles naturelles de Brie en Dardet</p>
                 <div class="display-flex">
                 <?php
-                foreach ($incontournables as $inc) {
+                foreach ($incontournables as $id) {
                     echo '
                     <div>
-                    <img src="/parc-naturel/'.$inc["image"].'" />
-                    <h3>'.$inc["titre"].'</h3>
-                    <p>'.$inc["description"].'
-                    <a class="button" href="?idArticle=0">
-                    Lire la suite</a>
+                        <img src="/parc-naturel/'.$id["image"].'" />
+                        <h3>'.$id["titre"].'</h3>
+                        <p>
+                            '.$id["description"].'
+                            <a class="button" href="?idArticle='.$id.'">Lire la suite</a>
                     </div>';
                } // fin du foreach
          ?>
