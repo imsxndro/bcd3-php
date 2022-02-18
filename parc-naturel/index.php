@@ -21,11 +21,27 @@
                 foreach ($incontournables as $inc) {
                     echo '
                     <div>
-                    <img src="/parc-naturel/'.$inc["image"].'" />
-                    <h3>'.$inc["titre"].'</h3>
-                    <p>'.$inc["description"].'
+                        <img src="/parc-naturel/'.$inc["image"].'" />
+                        <h3>'.$inc["titre"].'</h3>
+                        <p>
+                            '.$inc["description"].'
+                            <a class="button" href="?idArticle='.$inc.'">
+                            Lire la suite
+                            </a>
+                        </p>
                     </div>';
                } // fin du foreach
+         ?>
+
+         <?php
+         // Récupérer une variable dans l'URL :
+         // echo "Id de l'article qui est présent dans l'URL : ".$_GET["idArticle"]; 
+         
+         echo $incontournables[ $_GET["idArticle"] ]["image"]."<br>";
+         echo $incontournables[ $_GET["idArticle"] ]["titre"]."<br>";
+         echo $incontournables[ $_GET["idArticle"] ]["description"].
+         "<br>";
+
          ?>
                 </div>
             </section>
