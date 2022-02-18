@@ -13,6 +13,19 @@
             </section>
             <!-- Contact -->
                 <?php
+                $con = mysqli_connect('localhost', 'root', '',’db_contact’);
+
+                $txtName = $_POST['your-name'];
+                $txtEmail = $_POST['your-email'];
+                $txtSubject = $_POST['your-subject'];
+                $txtMessage = $_POST['your-message'];
+
+                $con = mysqli_connect('localhost', 'root', '',’db_contact’);
+                $sql = "INSERT INTO `tbl_contact` (`Id`, `fldName`, `fldEmail`, `fldPhone`, `fldMessage`) VALUES ('0', '$txtName', '$txtEmail', '$txtSubject', '$txtMessage');"
+                $rs = mysqli_query($con, $sql);
+
+                
+
                     if (isset($_POST) && !empty($_POST)) {
                         echo "
                         <div class='alert alert-warning' role='alert'>
@@ -21,6 +34,7 @@
                         
                         $contenuEmail = "
                         Nom : ".$_POST['your-name']."
+                        Suket : ".$_POST['your-subject']."
                         Message : ".$_POST['your-message']."
                         Email : ".$_POST['your-email']."
                         ";
